@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Finder Results</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+    <link href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- Nav -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Brand" src="...">
+                </a>
+            </div>
+            <p class="navbar-text"><a href="#">nav option 1</a></p>
+            <p class="navbar-text"><a href="#">nav option 2</a></p>
+            <p class="navbar-text"><a href="#">nav option 3</a></p>
+            <p class="navbar-text"><a href="#">nav option 4</a></p>
+            <p class="navbar-text"><a href="#">nav option 5</a></p>
+            <p class="navbar-text navbar-right"><a href="#">Sign Up</a></p>
+            <p class="navbar-text navbar-right"><a href="#">Login</a></p>
+        </div>
+    </nav>
+
+<!-- Filter Options -->
+    <div class="filter col-lg-3">
+        <h1 class="title">Filter Options</h1>
+        <br />
+        <select class="selectResults">
+            <option value="CPU Manufacture">CPU Manufacture</option>
+        </select>
+        <br />
+        <select class="selectResults">
+            <option value="Type">Type</option>
+        </select>
+        <br />
+        <select class="selectResults">
+            <option value="Brand">Brand</option>
+        </select>
+        <br />
+        <select class="selectResults">
+            <option value="Screen Size">Screen Size</option>
+        </select>
+        <br />
+        <h2>Price</h2>
+        <input id="1-2" type="checkbox" name="price" value="$100 - $200"/>
+        <label for="1-2">$100 - $200</label>
+        <br />
+        <input id="2-3" type="checkbox" name="price" value="$200 - $300"/>
+        <label for="2-3">$200 - $300</label>
+        <br />
+        <input id="3-4" type="checkbox" name="price" value="$300 - 400"/>
+        <label for="3-4">$300 - $400</label>
+        <br />
+        <input id="4-5" type="checkbox" name="price" value="$400 - 500"/>
+        <label for="4-5">$400 - $500</label>
+        <br />
+        <input id="5-6" type="checkbox" name="price" value="$500 - 600"/>
+        <label for="5-6">$500 - $600</label>
+        <br />
+        <input id="6-7" type="checkbox" name="price" value="$700 - 800"/>
+        <label for="6-7">$700 - $800</label>
+        <br />
+        <input id="8-9" type="checkbox" name="price" value="$800 - 900"/>
+        <label for="8-9">$800 - $900</label>
+        <br />
+        <input id="9-10" type="checkbox" name="price" value="$900 - 1000"/>
+        <label for="9-10">$900 - $1000</label>
+        <br />
+        <input id="10+" type="checkbox" name="price" value="$1000+"/>
+        <label for="10+">$1000+</label>
+        <br />
+        <h2>User Type</h2>
+        <input type="checkbox" name="userTpe" value="Basic User"/>Basic User
+        <input type="checkbox" name="userType" value="Everyday User"/>Everyday User
+        <br />
+        <input type="checkbox" name="userTpe" value="Advanced User / Casual Gamer"/>Advanced User / Casual Gamer
+        <br />
+        <input type="checkbox" name="userType" value="Professional User / Avid Gamer"/>Professional User / Avid Gamer
+        <br />
+    </div>
+<!-- Search Results -->
+    <div class="results col-lg-9">
+        <h1>Filter Options</h1>
+        <h3>ASUS s200 - 14"</h3>
+        <ul>
+            <li>Intel Pentium 2.5 GHz</li>
+            <li>4GB RAM</li>
+            <li>500GB Hard Drive</li>
+        </ul>
+        <h3>$399.99</h3>
+        <button>ADD TO CART</button>
+        <br />
+        <h3>Dell i3-5000bk - 15"</h3>
+        <ul>
+            <li>Intel i3 2.3 GHz</li>
+            <li>6GB RAM</li>
+            <li>500GB Hard Drive</li>
+        </ul>
+        <h3>$499.99</h3>
+        <button>ADD TO CART</button>
+        <br />
+        <h3>hp Envy 17t - 17"</h3>
+        <ul>
+            <li>Intel i3 2.7 GHz</li>
+            <li>4GB RAM</li>
+            <li>500GB Hard Drive</li>
+        </ul>
+        <h3>$599.99</h3>
+        <button>ADD TO CART</button>
+        <br />
+        <h3>Lenovo g30-50 - 15"</h3>
+        <ul>
+            <li>Intel Celeron 2.1GHz</li>
+            <li>4GB RAM</li>
+            <li>500GB Hard Drive</li>
+        </ul>
+        <h3>$299.99</h3>
+        <button>ADD TO CART</button>
+        <br />
+        <h3>Acer 6335gs - 15"</h3>
+        <ul>
+            <li>Intel i3 2.4 GHz</li>
+            <li>8GB RAM</li>
+            <li>1TB Hard Drive</li>
+        </ul>
+        <h3>$699.99</h3>
+        <button>ADD TO CART</button>
+        <br />
+    </div>
+
+<!-- Footer -->
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    <img alt="Twitter Icon" src="...">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img alt="Facebook Icon" src="...">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img alt="Pinterest Icon" src="...">
+                </a>
+                <a class="navbar-brand" href="#">
+                    <img alt="Email Icon" src="...">
+                </a>
+            </div>
+            <p class="navbar-text"><a href="#">nav option 1</a></p>
+            <p class="navbar-text"><a href="#">nav option 2</a></p>
+            <p class="navbar-text"><a href="#">nav option 3</a></p>
+            <p class="navbar-text"><a href="#">nav option 4</a></p>
+            <p class="navbar-text"><a href="#">nav option 5</a></p>
+        </div>
+    </nav>
+
+
+<!-- jquery -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<!-- plugins -->
+
+<!-- main -->
+    <script type="text/javascript" src="js/plugins/jquery-1.11.2.min.js"></script>
+<!-- UI -->
+    <script type="text/javascript" src="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
